@@ -4,7 +4,7 @@
 
 Spring Boot is a project which is built on top of the Spring framework. It is a tool that provides a much simpler and faster way to set up, configure and run both simple and web based applications. Spring Boot itself is not a framework.
 
-![Spring Ecosystem](https://github.com/tvanwinckel/intro-spring-boot-web/images/SpringBootEcosystem.png?raw=true "Spring Ecosystem")
+![Spring Ecosystem](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/images/SpringBootEcosystem.png?raw=true "Spring Ecosystem")
 
 Spring Boot will focus on these main features:
 
@@ -20,7 +20,7 @@ Spring Boot will attempt to set up your application based on the surrounding env
 *For example, if you add a database related dependency to you dependency file (`.pom`, `.gradle`), the Spring framework will automatically assume you want to do something with databases. Hence it will auto-configure your application for database access.
 Furthermore, if the dependency appears to be for a very specific database (Oracle, MySQL, Mongo, ...), Spring will be able to make an even more certain assumption and configure the specified database directly.*
 
-![Spring Auto-Config](https://github.com/tvanwinckel/intro-spring-boot-web/images/SpringBootAutoConfig.png?raw=true "Spring Auto-Config")
+![Spring Auto-Config](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/images/SpringBootAutoConfig.png?raw=true "Spring Auto-Config")
 
 Setting up your application for auto-configuration can be done with the following annotation: `@EnableAutoConfiguration`
 
@@ -41,7 +41,7 @@ With Spring Boot this process can be simplified as it only requires you to:
 
 Spring Boot will take care of the rest by starting and configuring an embeddes webserver and deploy your application directly in it. Usually a Tomcat webserver is chosen unless specified otherwise.
 
-![Spring Standalone](https://github.com/tvanwinckel/intro-spring-boot-web/images/SpringBootStandalone.png?raw=true "Spring Standalone")
+![Spring Standalone](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/images/SpringBootStandalone.png?raw=true "Spring Standalone")
 
 ### Opinionated
 
