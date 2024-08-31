@@ -10,6 +10,6 @@ Spring MVC (Model-View-Controller) is a framework within the broader Spring Fram
 
 ## [Testing](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/spring-mvc-testing.md "Testing")
 
-## [View Technologies](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/spring-mvc.md "View Technologies")
+## [View Technologies](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/spring-mvc-view-technologies.md "View Technologies")
 
 ## [Extras](https://github.com/tvanwinckel/intro-spring-boot-web/blob/main/spring-mvc-extras.md "Extras")
