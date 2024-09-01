@@ -1,4 +1,4 @@
-# Exercise: Parameters and Headers
+# Exercise: PathVariables, Parameters and Headers
 
 Given following controller:
 
