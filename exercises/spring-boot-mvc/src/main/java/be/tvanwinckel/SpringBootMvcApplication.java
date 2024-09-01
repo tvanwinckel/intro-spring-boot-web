@@ -10,4 +10,6 @@ public class SpringBootMvcApplication {
 		SpringApplication.run(SpringBootMvcApplication.class, args);
 	}
 
+
+
 }
