@@ -7,7 +7,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringBootMvcApplication {
 
 	public static void main(String[] args) {
-		System.setProperty("server.servlet.context-path", "/spring-web-mvc-system-prop");
 		SpringApplication.run(SpringBootMvcApplication.class, args);
 	}
 
