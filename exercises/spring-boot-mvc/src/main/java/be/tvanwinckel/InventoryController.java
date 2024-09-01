@@ -37,13 +37,6 @@ public class InventoryController {
         return "inventoryView";
     }
 
-    @PostMapping(path = "/items2", params = "item")
-    public String addItemToInventory2(final String item, final Model model) {
-        items.add(item);
-        model.addAttribute("message", inventoryItemsToString());
-        return "inventoryView";
-    }
-
     @GetMapping (path = "/items/{index}")
     public String getItemFromInventory(@PathVariable(name = "index") final int itemIndex, final Model model) {
         model.addAttribute("message", "The item at " + itemIndex + " is " + items.get(itemIndex));
