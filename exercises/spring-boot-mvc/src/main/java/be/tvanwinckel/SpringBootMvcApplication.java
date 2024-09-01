@@ -1,4 +1,4 @@
-package be.tvanwinckel_spring_boot_mvc.spring_boot_mvc;
+package be.tvanwinckel;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
